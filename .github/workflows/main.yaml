@@ -11,7 +11,7 @@ jobs:
   
     steps:
       - name: Pull The Code
-        uses: actions/checkout@4
+        uses: actions/checkout@v4
 
       - name: Log Into Docker Hub
         uses: docker/login-action@v3
